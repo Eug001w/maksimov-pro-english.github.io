@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evgenii Maksimov | Экспертное преподавание английского языка</title>
+  <meta name="description" content="Evgenii Maksimov — эксперт по английскому языку, 20+ лет опыта, 7+ лет в онлайн-образовании (EdTech).">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: { DEFAULT: '#0056b3', dark: '#004494', light: '#e8f1fb', xl: '#f0f6ff' },
+            ink: '#07090f',
+            gold: { DEFAULT: '#c9a84c', light: '#fdf6e3', dark: '#a07828' },
+            teal: { DEFAULT: '#0e9aa7', light: '#e4f6f8' },
+            orange: { DEFAULT: '#e8612a', light: '#fff2eb' },
+            green: { DEFAULT: '#00a87e', light: '#e6f9f4' },
+            gray: { 50: '#f9fafb', 100: '#f3f4f6', 200: '#e5e7eb', 400: '#9ca3af', 500: '#6b7280', 600: '#4b5563', 800: '#1f2937', 900: '#111827' }
+          },
+          fontFamily: {
+            sans: ['Montserrat', 'sans-serif'],
+            serif: ['Cormorant Garamond', 'serif'],
+          },
+          transitionDuration: {
+            '250': '250ms',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    /* Base typography scaling to match original design intent */
+    html {
+      scroll-behavior: smooth;
+      font-size: clamp(18px, 1.4vw + 0.6rem, 20px);
+    }
+    body {
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+    /* Custom scrollbar for a polished look */
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #f3f4f6; }
+    ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #9ca3af; }
+  </style>
+
+  </head>
+<body class="font-sans text-gray-900 bg-white leading-relaxed">
+  <div id="root"></div>
+  <script type="module" src="./index.tsx"></script>
+<script type="module" src="/index.js"></script></body>
+</html>
